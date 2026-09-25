@@ -1966,9 +1966,7 @@
           "documentation": "https://webawesome.com/docs/components/accordion",
           "status": "stable",
           "since": "3.8",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-accordion-item",
           "customElement": true,
           "modulePath": "src/components/accordion-item/accordion-item.ts",
@@ -2935,10 +2933,7 @@
           "documentation": "https://webawesome.com/docs/components/step",
           "status": "experimental",
           "since": "3.14",
-          "dependencies": [
-            "wa-icon",
-            "wa-spinner"
-          ],
+          "dependencies": ["wa-icon", "wa-spinner"],
           "tagName": "wa-step",
           "customElement": true,
           "modulePath": "src/components/step/step.ts",
@@ -5628,9 +5623,7 @@
           "documentation": "https://webawesome.com/docs/components/checkbox",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-checkbox",
           "customElement": true,
           "modulePath": "src/components/checkbox/checkbox.ts",
@@ -6276,11 +6269,7 @@
           "documentation": "https://webawesome.com/docs/components/tree-item",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-checkbox",
-            "wa-icon",
-            "wa-spinner"
-          ],
+          "dependencies": ["wa-checkbox", "wa-icon", "wa-spinner"],
           "tagName": "wa-tree-item",
           "customElement": true,
           "modulePath": "src/components/tree-item/tree-item.ts",
@@ -9658,10 +9647,7 @@
           "documentation": "https://webawesome.com/docs/components/button",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon",
-            "wa-spinner"
-          ],
+          "dependencies": ["wa-icon", "wa-spinner"],
           "tagName": "wa-button",
           "customElement": true,
           "modulePath": "src/components/button/button.ts",
@@ -10928,9 +10914,7 @@
           "documentation": "https://webawesome.com/docs/components/accordion",
           "status": "stable",
           "since": "3.8",
-          "dependencies": [
-            "wa-accordion-item"
-          ],
+          "dependencies": ["wa-accordion-item"],
           "tagName": "wa-accordion",
           "customElement": true,
           "modulePath": "src/components/accordion/accordion.ts",
@@ -11675,10 +11659,7 @@
           "documentation": "https://webawesome.com/docs/components/alert",
           "status": "experimental",
           "since": "3.0",
-          "dependencies": [
-            "wa-button",
-            "wa-icon"
-          ],
+          "dependencies": ["wa-button", "wa-icon"],
           "tagName": "wa-alert",
           "customElement": true,
           "modulePath": "src/components/alert/alert.ts",
@@ -11996,9 +11977,7 @@
           "documentation": "https://webawesome.com/docs/components/animated-image",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "ssr": [
             {
               "name": "-",
@@ -12800,9 +12779,7 @@
           "documentation": "https://webawesome.com/docs/components/avatar",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-avatar",
           "customElement": true,
           "modulePath": "src/components/avatar/avatar.ts",
@@ -13593,9 +13570,7 @@
           "documentation": "https://webawesome.com/docs/components/breadcrumb",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-breadcrumb",
           "customElement": true,
           "modulePath": "src/components/breadcrumb/breadcrumb.ts",
@@ -15149,9 +15124,7 @@
           "jsDoc": "/**\n * @summary Carousels display a series of content slides along a horizontal or vertical axis, one or more at a time.\n *  Users can navigate between slides with controls, pagination, or autoplay.\n *\n * @since 2.2\n * @status experimental\n *\n * @dependency wa-icon\n *\n * @event {{ index: number, slide: WaCarouselItem }} wa-slide-change - Emitted when the active slide changes.\n *\n * @slot - The carousel's main content, one or more `<wa-carousel-item>` elements.\n * @slot next-icon - Optional next icon to use instead of the default. Works best with `<wa-icon>`.\n * @slot previous-icon - Optional previous icon to use instead of the default. Works best with `<wa-icon>`.\n *\n * @csspart base - Deprecated. Use the `carousel` part instead.\n * @csspart carousel - The component's outer wrapper.\n * @csspart scroll-container - The scroll container that wraps the slides.\n * @csspart pagination - The pagination indicators wrapper.\n * @csspart pagination-item - The pagination indicator.\n * @csspart pagination-item-active - Applied when the item is active.\n * @csspart navigation - The navigation wrapper.\n * @csspart navigation-button - The navigation button.\n * @csspart navigation-button-previous - Applied to the previous button.\n * @csspart navigation-button-next - Applied to the next button.\n *\n * @cssproperty [--aspect-ratio=16/9] - The aspect ratio of each slide.\n * @cssproperty --scroll-hint - The amount of padding to apply to the scroll area, allowing adjacent slides to become\n *  partially visible as a scroll hint.\n * @cssproperty [--slide-gap=var(--wa-space-m)] - The space between each slide.\n *\n * @ssr - `<wa-carousel>` displays its first slide during SSR, but won't be interactive until it hydrates on the client.\n */",
           "since": "2.2",
           "status": "experimental",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "ssr": [
             {
               "name": "-",
@@ -15513,9 +15486,7 @@
           "documentation": "https://webawesome.com/docs/components/checkbox-group",
           "status": "stable",
           "since": "3.9",
-          "dependencies": [
-            "wa-checkbox"
-          ],
+          "dependencies": ["wa-checkbox"],
           "tagName": "wa-checkbox-group",
           "customElement": true,
           "modulePath": "src/components/checkbox-group/checkbox-group.ts",
@@ -16964,9 +16935,7 @@
           "documentation": "https://webawesome.com/docs/components/input",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-input",
           "customElement": true,
           "modulePath": "src/components/input/input.ts",
@@ -19341,13 +19310,7 @@
           "documentation": "https://webawesome.com/docs/components/color-picker",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-button",
-            "wa-button-group",
-            "wa-input",
-            "wa-popup",
-            "wa-visually-hidden"
-          ],
+          "dependencies": ["wa-button", "wa-button-group", "wa-input", "wa-popup", "wa-visually-hidden"],
           "tagName": "wa-color-picker",
           "customElement": true,
           "modulePath": "src/components/color-picker/color-picker.ts",
@@ -19655,9 +19618,7 @@
           "documentation": "https://webawesome.com/docs/components/tag",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-button"
-          ],
+          "dependencies": ["wa-button"],
           "tagName": "wa-tag",
           "customElement": true,
           "modulePath": "src/components/tag/tag.ts",
@@ -21151,12 +21112,7 @@
           "documentation": "https://webawesome.com/docs/components/select",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon",
-            "wa-popup",
-            "wa-tag",
-            "wa-option"
-          ],
+          "dependencies": ["wa-icon", "wa-popup", "wa-tag", "wa-option"],
           "tagName": "wa-select",
           "customElement": true,
           "modulePath": "src/components/select/select.ts",
@@ -21532,9 +21488,7 @@
           "documentation": "https://webawesome.com/docs/components/option",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-option",
           "customElement": true,
           "modulePath": "src/components/option/option.ts",
@@ -23037,12 +22991,7 @@
           "documentation": "https://webawesome.com/docs/components/combobox",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon",
-            "wa-popup",
-            "wa-tag",
-            "wa-option"
-          ],
+          "dependencies": ["wa-icon", "wa-popup", "wa-tag", "wa-option"],
           "tagName": "wa-combobox",
           "customElement": true,
           "modulePath": "src/components/combobox/combobox.ts",
@@ -23334,9 +23283,7 @@
           "documentation": "https://webawesome.com/docs/components/comparison",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-comparison",
           "customElement": true,
           "modulePath": "src/components/comparison/comparison.ts",
@@ -23940,9 +23887,7 @@
           "documentation": "https://webawesome.com/docs/components/tooltip",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-popup"
-          ],
+          "dependencies": ["wa-popup"],
           "tagName": "wa-tooltip",
           "customElement": true,
           "modulePath": "src/components/tooltip/tooltip.ts",
@@ -24524,10 +24469,7 @@
           "documentation": "https://webawesome.com/docs/components/copy",
           "status": "stable",
           "since": "3.6",
-          "dependencies": [
-            "wa-icon",
-            "wa-tooltip"
-          ],
+          "dependencies": ["wa-icon", "wa-tooltip"],
           "tagName": "wa-copy-button",
           "customElement": true,
           "modulePath": "src/components/copy-button/copy-button.ts",
@@ -25001,9 +24943,7 @@
           "documentation": "https://webawesome.com/docs/components/details",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-details",
           "customElement": true,
           "modulePath": "src/components/details/details.ts",
@@ -25545,9 +25485,7 @@
           "documentation": "https://webawesome.com/docs/components/dialog",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-button"
-          ],
+          "dependencies": ["wa-button"],
           "tagName": "wa-dialog",
           "customElement": true,
           "modulePath": "src/components/dialog/dialog.ts",
@@ -26357,9 +26295,7 @@
           "documentation": "https://webawesome.com/docs/components/drawer",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-button"
-          ],
+          "dependencies": ["wa-button"],
           "tagName": "wa-drawer",
           "customElement": true,
           "modulePath": "src/components/drawer/drawer.ts",
@@ -26876,9 +26812,7 @@
           "documentation": "https://webawesome.com/docs/components/dropdown-item",
           "status": "stable",
           "since": "3.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-dropdown-item",
           "customElement": true,
           "modulePath": "src/components/dropdown-item/dropdown-item.ts",
@@ -27562,10 +27496,7 @@
           "documentation": "https://webawesome.com/docs/components/dropdown",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-dropdown-item",
-            "wa-popup"
-          ],
+          "dependencies": ["wa-dropdown-item", "wa-popup"],
           "tagName": "wa-dropdown",
           "customElement": true,
           "modulePath": "src/components/dropdown/dropdown.ts",
@@ -32443,9 +32374,7 @@
           "documentation": "https://webawesome.com/docs/components/number-input",
           "status": "stable",
           "since": "3.2",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-number-input",
           "customElement": true,
           "modulePath": "src/components/number-input/number-input.ts",
@@ -35057,9 +34986,7 @@
           "documentation": "https://webawesome.com/docs/components/pagination",
           "status": "stable",
           "since": "3.11",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-pagination",
           "customElement": true,
           "modulePath": "src/components/pagination/pagination.ts",
@@ -35523,9 +35450,7 @@
           "documentation": "https://webawesome.com/docs/components/popover",
           "status": "stable",
           "since": "3.0",
-          "dependencies": [
-            "wa-popup"
-          ],
+          "dependencies": ["wa-popup"],
           "tagName": "wa-popover",
           "customElement": true,
           "modulePath": "src/components/popover/popover.ts",
@@ -37182,9 +37107,7 @@
           "documentation": "https://webawesome.com/docs/components/radio",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-radio",
           "customElement": true,
           "modulePath": "src/components/radio/radio.ts",
@@ -38068,9 +37991,7 @@
           "documentation": "https://webawesome.com/docs/components/radio-group",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-radio"
-          ],
+          "dependencies": ["wa-radio"],
           "tagName": "wa-radio-group",
           "customElement": true,
           "modulePath": "src/components/radio-group/radio-group.ts",
@@ -39421,9 +39342,7 @@
           "documentation": "https://webawesome.com/docs/components/rating",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-rating",
           "customElement": true,
           "modulePath": "src/components/rating/rating.ts",
@@ -41930,9 +41849,7 @@
           "documentation": "https://webawesome.com/docs/components/slider",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-tooltip"
-          ],
+          "dependencies": ["wa-tooltip"],
           "tagName": "wa-slider",
           "customElement": true,
           "modulePath": "src/components/slider/slider.ts",
@@ -42964,9 +42881,7 @@
           "documentation": "https://webawesome.com/docs/components/stepper",
           "status": "experimental",
           "since": "3.14",
-          "dependencies": [
-            "wa-step"
-          ],
+          "dependencies": ["wa-step"],
           "ssr": [
             {
               "name": "-",
@@ -44930,11 +44845,7 @@
           "documentation": "https://webawesome.com/docs/components/tab-group",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-button",
-            "wa-tab",
-            "wa-tab-panel"
-          ],
+          "dependencies": ["wa-button", "wa-tab", "wa-tab-panel"],
           "ssr": [
             {
               "name": "-",
@@ -45229,10 +45140,7 @@
           "documentation": "https://webawesome.com/docs/components/table-wrapper",
           "status": "experimental",
           "since": "3.0",
-          "dependencies": [
-            "wa-input",
-            "wa-icon"
-          ],
+          "dependencies": ["wa-input", "wa-icon"],
           "tagName": "wa-table-wrapper",
           "customElement": true,
           "modulePath": "src/components/table-wrapper/table-wrapper.ts",
@@ -46766,10 +46674,7 @@
           "documentation": "https://webawesome.com/docs/components/tag-input",
           "status": "experimental",
           "since": "3.13",
-          "dependencies": [
-            "wa-icon",
-            "wa-tag"
-          ],
+          "dependencies": ["wa-icon", "wa-tag"],
           "tagName": "wa-tag-input",
           "customElement": true,
           "modulePath": "src/components/tag-input/tag-input.ts",
@@ -50747,10 +50652,7 @@
           "documentation": "https://webawesome.com/docs/components/time-input",
           "status": "stable",
           "since": "3.8",
-          "dependencies": [
-            "wa-icon",
-            "wa-popup"
-          ],
+          "dependencies": ["wa-icon", "wa-popup"],
           "tagName": "wa-time-input",
           "customElement": true,
           "modulePath": "src/components/time-input/time-input.ts",
@@ -51200,10 +51102,7 @@
           "documentation": "https://webawesome.com/docs/components/toast",
           "status": "stable",
           "since": "3.3",
-          "dependencies": [
-            "wa-icon",
-            "wa-progress-ring"
-          ],
+          "dependencies": ["wa-icon", "wa-progress-ring"],
           "tagName": "wa-toast-item",
           "customElement": true,
           "modulePath": "src/components/toast-item/toast-item.ts",
@@ -51523,9 +51422,7 @@
           "documentation": "https://webawesome.com/docs/components/toast",
           "status": "stable",
           "since": "3.3",
-          "dependencies": [
-            "wa-toast-item"
-          ],
+          "dependencies": ["wa-toast-item"],
           "tagName": "wa-toast",
           "customElement": true,
           "modulePath": "src/components/toast/toast.ts",
@@ -51968,9 +51865,7 @@
           "documentation": "https://webawesome.com/docs/components/tree",
           "status": "stable",
           "since": "2.0",
-          "dependencies": [
-            "wa-tree-item"
-          ],
+          "dependencies": ["wa-tree-item"],
           "tagName": "wa-tree",
           "customElement": true,
           "modulePath": "src/components/tree/tree.ts",
@@ -52562,9 +52457,7 @@
           "documentation": "https://webawesome.com/docs/components/zoomable-frame",
           "status": "stable",
           "since": "3.0",
-          "dependencies": [
-            "wa-icon"
-          ],
+          "dependencies": ["wa-icon"],
           "tagName": "wa-zoomable-frame",
           "customElement": true,
           "modulePath": "src/components/zoomable-frame/zoomable-frame.ts",
